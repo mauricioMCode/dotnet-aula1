@@ -16,7 +16,7 @@ namespace DotnetAula1.Models
         public void Apresentar()
         {
            // Console.WriteLine($"Olá! meu nome é" + $"{Nome} tenho {Idade} anos e moro em {Endereco}.");
-              Console.WriteLine($"Olá! meu nome é " + $"{Nome} tenho {Idade}\nanos e moro em {Endereco}.");
+              Console.WriteLine($"Hi! my name is " + $"{Nome} ,have {Idade}\nage and live in {Endereco}.");
         }
 
     }
