@@ -8,9 +8,7 @@ namespace DotnetAula1.Models
     public class Pessoa
     {
         public string Nome { get; set; }
-
         public int Idade { get; set; }
-
         public string Endereco { get; set;}
 
         public void Apresentar()
