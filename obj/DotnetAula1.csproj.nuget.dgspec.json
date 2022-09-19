@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\DotnetAula1\\DotnetAula1.csproj": {}
+    "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\dotnet-aula1\\DotnetAula1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\DotnetAula1\\DotnetAula1.csproj": {
+    "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\dotnet-aula1\\DotnetAula1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\DotnetAula1\\DotnetAula1.csproj",
+        "projectUniqueName": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\dotnet-aula1\\DotnetAula1.csproj",
         "projectName": "DotnetAula1",
-        "projectPath": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\DotnetAula1\\DotnetAula1.csproj",
+        "projectPath": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\dotnet-aula1\\DotnetAula1.csproj",
         "packagesPath": "C:\\Users\\mcpan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\DotnetAula1\\obj\\",
+        "outputPath": "C:\\Users\\mcpan\\Documents\\Projetos\\Dotnet\\dotnet-aula1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mcpan\\AppData\\Roaming\\NuGet\\NuGet.Config"
