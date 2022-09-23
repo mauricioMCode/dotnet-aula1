@@ -1,33 +1,146 @@
 ﻿using DotnetAula1.Models;
 
+// Case
+
+Console.WriteLine("Digite uma letra:");
+
+string letra = Console.ReadLine();
+
+
+// Usando o Switch
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+
+    Console.WriteLine("Vogal!");
+    break;
+
+    default:
+    Console.WriteLine("Não é uma vogal!");
+    break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (letra == "a" || // Pipe é sinal que representa - OU -
+//     letra == "e" ||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u")
+// {
+    
+//     Console.WriteLine("Vogal!");
+    
+// }
+// else
+// {
+    
+//     Console.WriteLine("Não é uma Vogal!");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// else if (letra == "e")
+// {
+    
+//     Console.WriteLine("Vogal!");
+
+// }
+// else if (letra == "i")
+// {
+    
+//     Console.WriteLine("Vogal!");
+
+// }
+// else if (letra == "o")
+// {
+    
+//     Console.WriteLine("Vogal!");
+
+// }
+// else if (letra == "u")
+// {
+    
+//     Console.WriteLine("Vogal!");
+
+// }
+// else
+// {
+    
+//     Console.WriteLine("Não é uma Vogal!");
+
+// }
+
+
+
+
+
+
+
+
+
+
+
 
 // Realizando uma Condição
 
-int quantidadeEmEstoque = 4;
+// int quantidadeEmEstoque = 4;
 
-int quantidadeCompra = 10;
+// int quantidadeCompra = 10;
 
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine("\nSISTEMA DE VENDAS MAGAZINE\n");
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"\nQuantidade de compra: {quantidadeCompra}");
-Console.WriteLine($"\nÉ possível realizar a venda? {possivelVenda}\n");
+// Console.WriteLine("\nSISTEMA DE VENDAS MAGAZINE\n");
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"\nQuantidade de compra: {quantidadeCompra}");
+// Console.WriteLine($"\nÉ possível realizar a venda? {possivelVenda}\n");
 
-if (quantidadeCompra == 0)
-{
-    Console.WriteLine("Venda inválida!\n");
-}
-else if (possivelVenda)
-{
-    //Console.WriteLine("Sim!\n");
-    Console.WriteLine("Venda Realizada com sucesso! Obrigado e volte sempre.\n");
-}
-else
-{
-    //Console.WriteLine("Não\n");
-    Console.WriteLine("Não foi possível realizar a venda.\n");
-}
+// if (quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda inválida!\n");
+// }
+// else if (possivelVenda)
+// {
+//     //Console.WriteLine("Sim!\n");
+//     Console.WriteLine("Venda Realizada com sucesso! Obrigado e volte sempre.\n");
+// }
+// else
+// {
+//     //Console.WriteLine("Não\n");
+//     Console.WriteLine("Não foi possível realizar a venda.\n");
+// }
 // IF Aninhado (onde você tem várias condições para executar).
 
 
