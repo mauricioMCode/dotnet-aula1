@@ -1,31 +1,46 @@
 ﻿using DotnetAula1.Models;
 
 
-
-
-
 // Realizando uma Condição
 
-int quantidadeEmEstoque = 14;
+int quantidadeEmEstoque = 4;
 
 int quantidadeCompra = 10;
 
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
 Console.WriteLine("\nSISTEMA DE VENDAS MAGAZINE\n");
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
 Console.WriteLine($"\nQuantidade de compra: {quantidadeCompra}");
 Console.WriteLine($"\nÉ possível realizar a venda? {possivelVenda}\n");
 
-if (possivelVenda)
+if (quantidadeCompra == 0)
 {
-    Console.WriteLine("Sim!\n");
-    Console.WriteLine("Venda Realizada com sucesso! Obrigado e volte sempre.\n");
-} else
-{
-    Console.WriteLine("Não\n");
-    Console.WriteLine("Não foi possível realizar a venda, verifique com o vendedor.\n");
+    Console.WriteLine("Venda inválida!\n");
 }
+else if (possivelVenda)
+{
+    //Console.WriteLine("Sim!\n");
+    Console.WriteLine("Venda Realizada com sucesso! Obrigado e volte sempre.\n");
+}
+else
+{
+    //Console.WriteLine("Não\n");
+    Console.WriteLine("Não foi possível realizar a venda.\n");
+}
+// IF Aninhado (onde você tem várias condições para executar).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //{quantidadeEmEstoque >= quantidadeCompra}
