@@ -10,15 +10,17 @@ int quantidadeEmEstoque = 14;
 
 int quantidadeCompra = 10;
 
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
 Console.WriteLine("\nSISTEMA DE VENDAS MAGAZINE\n");
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
 Console.WriteLine($"\nQuantidade de compra: {quantidadeCompra}");
-Console.WriteLine($"\nÉ possível realizar a venda?\n");
+Console.WriteLine($"\nÉ possível realizar a venda? {possivelVenda}\n");
 
-if (quantidadeEmEstoque >= quantidadeCompra)
+if (possivelVenda)
 {
     Console.WriteLine("Sim!\n");
-    Console.WriteLine("Venda Realizada! Obrigado, volte sempre.\n");
+    Console.WriteLine("Venda Realizada com sucesso! Obrigado e volte sempre.\n");
 } else
 {
     Console.WriteLine("Não\n");
