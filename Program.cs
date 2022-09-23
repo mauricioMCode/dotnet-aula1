@@ -9,7 +9,7 @@ string letra = Console.ReadLine();
 
 // Usando o Switch
 
-switch (letra)
+switch (letra) // SWITCH - É uma alternativa, quando temos um IF aninhado.
 {
     case "a":
     case "e":
